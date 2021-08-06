@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <time.h>
 #include "Monster.h"
 using namespace std;
@@ -22,7 +22,7 @@ int main()
 	}
 
 	end = clock();
-	cout << "¸Þ¸ð¸®Ç® ¾È¾´°Å : "<< end - start << endl;
+	cout << "ë©”ëª¨ë¦¬í’€ ì•ˆì“´ê±° : "<< end - start << endl;
 
 	Monster* m = new Monster();
 	start = clock();
@@ -33,5 +33,5 @@ int main()
 		delete(m2);
 	}
 	end = clock();
-	cout << "¸Þ¸ð¸®Ç® ¾´°Å : " << end - start << endl;
+	cout << "ë©”ëª¨ë¦¬í’€ ì“´ê±° : " << end - start << endl;
 }
