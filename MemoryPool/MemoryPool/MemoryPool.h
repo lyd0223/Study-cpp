@@ -39,7 +39,7 @@ public :
 		}
 		*current = nullptr;
 	}
-	static void* operator new(unsigned int allocSize)
+	static void* operator new(size_t allocSize)
 	{
 		if (!mPoolPointer)
 		{
